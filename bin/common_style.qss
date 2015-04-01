@@ -1,0 +1,665 @@
+QFrame#titleBar
+{
+	background-color:rgb(88, 115, 201);	
+	max-height:50px;
+}
+
+QRadioButton::indicator
+{
+	width:14px;
+	height:14px;
+}
+
+QRadioButton::indicator::unchecked
+{
+	image:url(:/Image/radio_unchecked_normal.png);
+}
+
+QRadioButton::indicator::unchecked:hover
+{
+	image:url(:/Image/radio_unchecked_hover.png);
+}
+
+QRadioButton::indicator::checked
+{
+	image:url(:/Image/radio_checked_normal.png);
+}
+
+QRadioButton::indicator::checked:hover
+{
+	image:url(:/Image/radio_checked_hover.png);
+}
+
+QToolButton#closeBtn
+{
+	border:0px solid black;
+	border-image:url(:/Image/close_normal.png);
+}
+
+QToolButton#closeBtn:hover
+{
+	border-image:url(:/Image/close_hover.png);
+}
+
+QToolButton#closeBtn:pressed
+{
+	border-image:url(:/Image/close_pressed.png);	
+}
+
+QToolButton#minBtn
+{
+	border:0px solid black;
+	border-image:url(:/Image/min_normal.png);
+}
+
+QToolButton#minBtn:hover
+{
+	border-image:url(:/Image/min_hover.png);
+}
+
+QToolButton#minBtn:pressed
+{
+	border-image:url(:/Image/min_pressed.png);
+}
+
+QToolButton#menuBtn
+{
+	border:0px solid black;
+	border-image:url(:/Image/menu_normal.png);
+}
+
+QToolButton#maxBtn
+{
+	border:0px solid black;
+	border-image:url(:/Image/max_normal.png);
+}
+
+QToolButton#maxBtn:hover
+{
+	border-image:url(:/Image/max_hover.png);
+}
+
+QToolButton#maxBtn:pressed
+{
+	border-image:url(:/Image/max_pressed.png);
+}
+
+QToolButton#menuBtn
+{
+	border:0px solid black;
+	border-image:url(:/Image/menu_normal.png);
+}
+
+QToolButton::menu-indicator
+{
+	image:none;
+}
+
+QToolButton#menuBtn:hover
+{
+	border-image:url(:/Image/menu_hover.png);
+}
+
+QToolButton#menuBtn:pressed
+{
+	border-image:url(:/Image/menu_pressed.png);
+}
+
+
+QPushButton
+{
+	font-family:"Microsoft Yahei";
+	border:1px solid rgb(222, 222, 222);
+	border-radius:3px;
+	background-color:rgb(250, 250 ,250);
+	color:rgb(104, 104, 104);
+}
+
+QPushButton:hover
+{
+	font-family:"Microsoft Yahei";
+	border:1px solid rgb(175, 210, 235);
+	background-color:rgb(247, 252 ,255);
+	color:rgb(121, 175, 213);
+}
+
+QPushButton:pressed
+{
+	font-family:"Microsoft Yahei";
+	border:1px solid rgb(95, 166, 215);
+	background-color:rgb(214, 238 ,252);
+	color:rgb(40, 125, 184);
+}
+
+QPushButton:disabled
+{
+	background-color:transparent;
+	color:#aaaaaa;
+}
+
+QLabel
+{
+	font-family:"Microsoft Yahei";
+	color:rgb(58, 58, 58);
+}
+
+QLabel:disabled
+{
+	color:#aaaaaa;
+}
+
+QLabel#label_title
+{
+	font-family:"Microsoft Yahei";
+	color:white;
+}
+
+QHeaderView::section 
+{
+	background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ffffff, stop:1 #eeeeee);
+    padding-left: 10px;
+	border:none;
+	border-right: 1px solid qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #dddddd, stop:1 #ffffff);
+	border-bottom: 0px solid #eeeeee;
+	height:25px;
+	color:#333333;
+	font-family:"Microsoft Yahei";
+	text-align:center left;
+}
+
+
+QHeaderView::down-arrow 
+{
+    image: none;
+}
+
+QHeaderView::up-arrow 
+{
+	image:none;
+}
+
+QScrollBar:vertical 
+{
+	border: 0px solid grey;
+	background: transparent;
+	width: 10px;
+}
+
+QScrollBar::handle:vertical 
+{
+	background: #cccccc;
+	min-height: 100px;
+}
+
+QScrollBar::handle:vertical:hover 
+{
+	background: #aaaaaa;
+	min-height: 100px;
+}
+
+QScrollBar::add-line:vertical 
+{
+	border:none;
+	background:transparent;
+}
+
+QScrollBar::sub-line:vertical 
+{
+	border:none;
+	background:transparent;
+}
+
+QScrollBar:horizontal 
+{
+	border: 0px solid grey;
+	background: transparent;
+	height: 5px;
+}
+
+QScrollBar::handle:horizontal 
+{
+	background: #cccccc;
+	min-width: 100px;
+}
+
+QScrollBar::handle:horizontal:hover 
+{
+	background: #aaaaaa;
+	min-width: 100px;
+}
+
+QScrollBar::add-line:horizontal 
+{
+	border:none;
+	background:transparent;
+}
+
+QScrollBar::sub-line:horizontal 
+{
+	border:none;
+	background:transparent;
+}
+
+QFrame#trQQAccounts
+{
+	border: 1px solid rgb(214, 216, 224);
+	border-bottom-width:0px;
+	border-left-width:0px;
+}
+
+QFrame#edtQQChat
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-top-width:1px;
+}
+
+QComboBox
+{
+	background-color:white;
+	border:1px solid rgb(214, 216, 224);
+	font-family:"Microsoft Yahei";
+	color:black;
+	padding-left:10px;
+}
+
+QComboBox:hover
+{
+	background-color:rgb(209, 216, 240);
+}
+
+QComboBox:on
+{
+	background-color:rgb(209, 216, 240);
+}
+
+QComboBox::drop-down 
+{
+	subcontrol-origin: padding;
+	subcontrol-position: top right;
+	width: 15px;
+	border:0px solid rgb(214, 216, 224);
+}
+
+QComboBox::down-arrow 
+{
+	height:8px;
+	width:5px;
+	image: url(:/Image/arrow.png);
+}
+
+QComboBox QAbstractItemView::item 
+{
+	min-height: 20px;
+}
+
+QComboBox QAbstractItemView
+{
+	border: 1px solid rgb(214, 216, 224);
+}
+
+QComboBox:editable, QComboBox:editable:hover
+{
+	background-color:transparent;
+}
+
+QTreeView::item
+{
+	background-color:transparent;
+	min-height:25px;
+	padding-left:7px;
+	/*color:rgb(58,58,58);*/
+	font-family:"Microsoft Yahei";
+}
+
+QTreeView::item:hover
+{
+	background-color:rgb(209, 216, 240);
+}
+
+QTreeView::item:selected
+{
+	background-color:rgb(133, 153, 216);
+	color:white;
+}
+
+QTreeView::item:disabled
+{
+	color:#aaaaaa;
+}
+
+QFrame#edtBrowserData
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-top-width:1px;
+}
+
+QRadioButton
+{
+	font-family:"Microsoft Yahei";
+}
+
+QFrame#lstSmsFriends
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-right-width:1px;
+}
+
+QListView
+{
+	alternate-background-color: rgb(239, 241, 250);
+	background-color:white;
+}
+
+QListView::item
+{
+	min-height:28px;
+	padding-left:10px;
+	background-color:transparent;
+	/*color:rgb(58,58,58);*/
+	font-family:"Microsoft Yahei";
+}
+
+QListView::item:hover
+{
+	background-color:rgb(209, 216, 240);
+}
+
+QListView::item:selected
+{
+	background-color:rgb(133, 153, 216);
+	color:white;
+}
+
+QFrame#edtSmsRecord
+{
+	border: 0px solid rgb(214, 216, 224);
+}
+
+QTreeView#tbCallInfo
+{
+	alternate-background-color: rgb(239, 241, 250);
+	background-color:white;
+}
+
+QTreeView::item#tbCallInfo
+{
+	padding-left:10px;
+	min-height:25px;
+}
+
+QFrame#lstWeixinFriends
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-right-width:1px;	
+}
+
+QFrame#weixin_frame_1
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-bottom-width:1px;	
+}
+
+QFrame#SelectDirDlg
+{
+	background-color:white;
+}
+
+QLineEdit
+{
+	border:1px solid rgb(214, 216, 224);
+	font-family:"Microsoft Yahei";
+}
+
+QFrame#frame_analyze
+{
+	border:0px solid rgb(214, 216, 224);
+	border-bottom-width:1px;
+}
+
+QPushButton#btnStart, QPushButton#btnEmulator, QPushButton#btnRecoveryBackup, QPushButton#btnToggleNetwork
+{
+	border:0px solid rgb(214, 216, 224);
+	background-color:rgb(67, 95, 185);
+	color:white;
+}
+
+QPushButton#btnStart:hover, QPushButton#btnEmulator:hover, QPushButton#btnRecoveryBackup:hover, QPushButton#btnToggleNetwork:hover
+{
+	background-color:rgb(104, 130, 215);
+}
+
+QPushButton#btnStart:pressed, QPushButton#btnEmulator:pressed, QPushButton#btnRecoveryBackup:pressed, QPushButton#btnToggleNetwork:pressed
+{
+	background-color:rgb(67, 95, 185);
+}
+
+QPushButton#btnStart:disabled, QPushButton#btnEmulator:disabled, QPushButton#btnRecoveryBackup:disabled, QPushButton#btnToggleNetwork:disabled
+{
+	background-color:white;
+	color:#aaaaaa;
+	border-width:1px;
+}
+
+QLabel#subTitle
+{
+	font-size:12px;
+	color:rgb(240, 240, 240);
+}
+
+QProgressBar
+{
+	border:1px solid rgb(239, 241, 250);
+	background-color:rgb(239, 241, 250);
+}
+
+QProgressBar::chunk
+{
+	background-color:rgb(88, 115, 201);
+}
+
+QFrame#frame_msgBox
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-top-width:1px;
+}
+
+QFrame#MsgBox
+{
+	background-color:white;
+}
+
+QFrame#BasicInfoDlg, QFrame#ParseDlg
+{
+	background-color:white;
+}
+
+QLabel#info_1, QLabel#info_2, QLabel#info_3, QLabel#info_4, QLabel#info_5, QLabel#info_6, QLabel#info_7, QLabel#info_8, QLabel#info_9, QLabel#info_10, QLabel#info_11
+{
+	font-weight:bold;
+	font-size:12px;
+}
+
+QLabel#image_sec_1, QLabel#image_sec_2, QLabel#image_sec_3, QLabel#lbApplist
+{
+	font-weight:bold;
+	font-size:12px;
+}
+
+QMenu
+{
+	background-color:white;
+	color:rgb(58, 58, 58);
+	border:1px solid rgb(214, 216, 224);
+}
+
+QMenu::item
+{
+	padding:8px; 
+	padding-left:10px;
+	min-width:200px;
+	background-color:transparent;
+}
+
+QMenu::item:selected
+{
+	background-color:rgb(209, 216, 240);
+}
+
+QMenu::separator
+{
+	height:1px;
+	background-color:rgb(214, 216, 224);
+}
+
+QMenu::icon
+{
+	padding-left:10px;
+	min-width:24px;
+	min-height:24px;
+}
+
+QFrame#lstCallFriends
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-right-width:1px;
+}
+
+QLineEdit#edtFilter
+{
+	border: 0px solid rgb(214, 216, 224);
+	color:rgb(58, 58, 58);
+}
+
+QLineEdit#edtFilter:edit-focus 
+{
+	color:rgb(100, 100, 100);
+}
+
+QFrame#frame_toolbar
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-bottom-width:1px;
+}
+
+QFrame#frame_header_bar
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-bottom-width:1px;
+}
+
+QFrame#frame_simulator
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-top-width:1px;	
+}
+
+QFrame#frame_emulator_header
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-bottom-width:1px;	
+}
+
+QTreeView#trEmulatorApps::item
+{
+	min-height:35px;
+}
+
+QTreeView#trEmulatorApps::item:hover
+{
+	background-color:transparent;
+}
+
+QFrame#edtResult
+{
+	border: 1px solid rgb(214, 216, 224);
+}
+
+QFrame#lstDevices
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-bottom-width:1px;
+}
+
+QFrame#image_frame_1
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-bottom-width:1px;
+}
+
+QFrame#lstBrowserData
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-top-width:1px;
+}
+
+QFrame#lstService
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-right-width:1px;
+}
+
+QFrame#frame_titlebar
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-bottom-width:1px;
+}
+
+QFrame#lstLineFriends
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-right-width:1px;
+}
+
+QFrame#frame_accountInfo
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-top-width:1px;	
+}
+
+QLabel#label_qq_1, QLabel#label_qq_2, QLabel#label_qq_3, QLabel#label_qq_4, QLabel#label_qq_5
+{
+	font-size:12px;
+} 
+
+QLabel#label_qq_number, QLabel#label_qq_nickname, QLabel#label_qq_remark, QLabel#label_qq_signature, QLabel#label_qq_group
+{
+	font-size:12px;
+	color:#888888;
+} 
+
+QFrame#frame_backup
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-top-width:1px;	
+}
+
+QFrame#frame_bottom_bar
+{
+	border: 0px solid rgb(214, 216, 224);
+	border-top-width:1px;	
+}
+
+QCheckBox
+{
+	font-family:"Microsoft Yahei";
+}
+
+QCheckBox::indicator:unchecked 
+{
+	image: url(:/Image/unchecked_normal.png);
+}
+
+QCheckBox::indicator:unchecked:pressed 
+{
+	image: url(:/Image/unchecked_active.png);
+}
+
+QCheckBox::indicator:checked 
+{
+	image: url(:/Image/checked_normal.png);
+}
+
+QCheckBox::indicator:checked:pressed
+{
+	image: url(:/Image/checked_active.png);
+}

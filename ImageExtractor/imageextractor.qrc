@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qt_zh_CN.qm</file>
+        <file>Image/close_hover.png</file>
+        <file>Image/close_normal.png</file>
+        <file>Image/close_pressed.png</file>
+        <file>Image/menu_hover.png</file>
+        <file>Image/menu_normal.png</file>
+        <file>Image/menu_pressed.png</file>
+        <file>Image/min_hover.png</file>
+        <file>Image/min_normal.png</file>
+        <file>Image/min_pressed.png</file>
+        <file>Image/window_shadow.png</file>
+        <file>Image/radio_checked_hover.png</file>
+        <file>Image/radio_checked_normal.png</file>
+        <file>Image/radio_unchecked_hover.png</file>
+        <file>Image/radio_unchecked_normal.png</file>
+        <file>Image/checked_active.png</file>
+        <file>Image/checked_hover.png</file>
+        <file>Image/checked_normal.png</file>
+        <file>Image/unchecked_active.png</file>
+        <file>Image/unchecked_hover.png</file>
+        <file>Image/unchecked_normal.png</file>
+        <file>Image/information.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,56 @@
+
+Using locale 'C.UTF-8'.
+
+
+Wed Feb  4 16:14:57 2015
+Command line: PhotoRec /debug /d C:\Users\ibm\Desktop\recovery /cmd C:\Users\ibm\Desktop\PhoneForensics1\GT-I9228-358059045626946\Image\contacts2.db options,keep_corrupted_file,fileopt,everything,disable,jpg,enable,gif,enable,png,enable,sqlite,enable,wholespace,search
+
+PhotoRec 7.0-WIP, Data Recovery Utility, October 2013
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Windows 7 (7601) SP1
+Compiler: GCC 4.7, Cygwin 1007.25
+Compilation date: 2013-10-29T18:32:42
+ext2fs lib: 1.42.8, ntfs lib: 10:0:0, ewf lib: 20120504, libjpeg: 80
+Hard disk list
+Disk C:\Users\ibm\Desktop\PhoneForensics1\GT-I9228-358059045626946\Image\contacts2.db - 718 KB / 702 KiB - CHS 1 255 63 (RO), sector size=512
+
+Partition table type default to None
+Disk C:\Users\ibm\Desktop\PhoneForensics1\GT-I9228-358059045626946\Image\contacts2.db - 718 KB / 702 KiB (RO)
+Partition table type: None
+   P Unknown                  0   0  1     0  22 18       1404
+New options :
+ Paranoid : Yes
+ Brute force : No
+ Keep corrupted files : Yes
+ ext2/ext3 mode : No
+ Expert mode : No
+ Low memory : No
+
+Interface File Select
+10 first-level signatures enabled
+
+Analyse
+   P Unknown                  0   0  1     0  22 18       1404
+Pass 0 (blocksize=512) STATUS_FIND_OFFSET
+* 0-1403: (null)
+1404 sectors contains unknown data, 0 invalid files found and rejected.
+Elapsed time 0h00m00s
+Pass 1 (blocksize=65536) STATUS_EXT2_OFF
+* 0-1403: sqlite
+1404 sectors contains unknown data, 1 invalid files found and rejected.
+C:\Users\ibm\Desktop\recovery.1/f0000000.sqlite	 0-1403
+Elapsed time 0h00m00s
+Pass 1 +1 file
+sqlite: 1/1 recovered
+Total: 1 file found
+
+Pass 2 (blocksize=65536) STATUS_EXT2_OFF_SAVE_EVERYTHING
+0 sectors contains unknown data, 0 invalid files found and rejected.
+Elapsed time 0h00m00s
+Pass 2 +0 file
+sqlite: 1/1 recovered
+Total: 1 file found
+
+0 sectors contains unknown data, 0 invalid files found but saved.
+PhotoRec exited normally.

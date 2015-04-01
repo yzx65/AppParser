@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<layout>
+		<Node label="基本信息" icon=":/image/basic_info.png"></Node>
+		<Node label="密码信息" function="GetKeyChainInfoCount" icon=":/image/passord_info.png"></Node>
+		<Node label="内置应用" function="GetSystemAppInfoCount" icon=":/image/system_app.png" collapse="0">
+			<Node label="短信" function="GetSmsInfoCount" icon=":/image/sms.png"></Node>
+			<Node label="通讯录" function="GetContactInfoCount" icon=":/image/address_book.png"></Node>
+			<Node label="通话记录" function="GetRecordInfoCount" icon=":/image/call_history.png"></Node>
+			<Node label="已删除短信" function="GetSmsInfoCountDel" icon=":/image/sms.png"></Node>
+			<Node label="已删除通讯录" function="GetContactInfoCountDel" icon=":/image/address_book.png"></Node>
+			<Node label="已删除通话记录" function="GetRecordInfoCountDel" icon=":/image/call_history.png"></Node>
+		</Node>
+		<Node label="社交应用" function="GetSnsAppInfoCount" icon=":/image/im.png" collapse="1">
+			<Node label="QQ" function="GetQQInfoCount" icon=":/image/qq.png"></Node>
+			<Node label="微信" function="GetWeixinInfoCount" icon=":/image/weixin.png"></Node>
+			<Node label="Line" function="GetLineInfoCount" icon=":/image/line.png"></Node>
+		</Node>
+		<Node label="浏览器" function="GetBrowserAppInfoCount" icon=":/image/browser.png" collapse="1">
+			<Node label="系统浏览器" function="GetDefaultBrowserInfoCount" icon=":/image/defaultBrowser.png"></Node>
+			<Node label="UC浏览器" function="GetUCBrowserInfoCount" icon=":/image/ucBrowser.png"></Node>
+			<Node label="QQ浏览器" function="GetQQBrowserInfoCount" icon=":/image/qqBrowser.png"></Node>
+			<Node label="百度浏览器" function="GetBaiduBrowserInfoCount" icon=":/image/baiduBrowser.png"></Node>
+			<Node label="猎豹浏览器" function="GetJinShanBrowserInfoCount" icon=":/image/jinshanBrowser.png"></Node>
+			<Node label="Safari浏览器" function="GetSafariBrowserInfoCount" icon=":/image/safariBrowser.png"></Node>
+		</Node>
+		<Node label="地图" function="GetMapAppInfoCount" icon=":/image/map.png" collapse="1">
+			<Node label="百度地图" function="GetBaiduMapInfoCount" icon=":/image/baiduMap.png"></Node>
+			<Node label="高德地图" function="GetGaodeMapInfoCount" icon=":/image/gaodeMap.png"></Node>
+		</Node>
+		<Node label="模拟仿真" icon=":/image/emulator.png">
+		</Node>
+		<Node label="镜像分析" icon=":/image/image.png">
+		</Node>
+	</layout>
+	<forensics>
+		<type name="快速取证" dir="\App" icon=":/Image/app.png"></type>
+		<type name="一键取证" dir="\Backup" icon=":/Image/backup.png"></type>
+		<type name="离线快速" dir="\OfflineApp" icon=":/Image/offline.png"></type>
+		<type name="镜像取证" dir="\Image" icon=":/Image/image.png"></type>
+		<type name="离线镜像" dir="\OfflineImage" icon=":/Image/offline.png"></type>
+		<type name="无线取证" dir="\Wifi" icon=":/Image/wifi.png"></type>
+	</forensics>
+	<keychain>
+		<type key="AirPort" label="无线密码"></type>
+		<type key="BackupAgent" label="iTunes 备份密码"></type>
+		<type key="Internet passwords" label="网络密码"></type>
+		<type key="com.apple.account.SMTP.password" label="iTunes 邮箱密码"></type>
+		<type key="com.apple.account.IMAP.password" label="iTunes 邮箱密码"></type>
+	</keychain>
+	<emulator path="&quot;C:\Program Files\Genymobile\Genymotion\genymotion.exe&quot;">
+	</emulator>
+	<title value="手机应用取证工具 Beta">
+	</title>
+	<image_tool_title value="镜像提取工具 Beta">
+	</image_tool_title>
+</root>

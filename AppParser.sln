@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AppParser", "AppParser\AppParser.vcproj", "{B2571FE5-68F9-45E7-AE58-9F802F19EF3C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SqliteLib", "SqliteLib\SqliteLib.vcproj", "{38E45683-876B-46EF-A1A3-876B4D1B1320}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UCParser", "UCParser\UCParser.vcproj", "{AE1138AB-5E9D-4DE7-B96B-3B0D1B4F6178}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageExtractor", "ImageExtractor\ImageExtractor.vcproj", "{9327DB6A-6CAF-4357-9591-1343520FB8D9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GenymotionMonitor", "GenymotionMonitor\GenymotionMonitor.vcproj", "{A981B9EE-62EE-4845-A649-A7DCB93AD86A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		加狗_Release|Win32 = 加狗_Release|Win32
+		加狗|Win32 = 加狗|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2571FE5-68F9-45E7-AE58-9F802F19EF3C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B2571FE5-68F9-45E7-AE58-9F802F19EF3C}.Debug|Win32.Build.0 = Debug|Win32
+		{B2571FE5-68F9-45E7-AE58-9F802F19EF3C}.Release|Win32.ActiveCfg = Release|Win32
+		{B2571FE5-68F9-45E7-AE58-9F802F19EF3C}.Release|Win32.Build.0 = Release|Win32
+		{B2571FE5-68F9-45E7-AE58-9F802F19EF3C}.加狗_Release|Win32.ActiveCfg = 加狗_Release|Win32
+		{B2571FE5-68F9-45E7-AE58-9F802F19EF3C}.加狗_Release|Win32.Build.0 = 加狗_Release|Win32
+		{B2571FE5-68F9-45E7-AE58-9F802F19EF3C}.加狗|Win32.ActiveCfg = 加狗|Win32
+		{B2571FE5-68F9-45E7-AE58-9F802F19EF3C}.加狗|Win32.Build.0 = 加狗|Win32
+		{38E45683-876B-46EF-A1A3-876B4D1B1320}.Debug|Win32.ActiveCfg = Debug|Win32
+		{38E45683-876B-46EF-A1A3-876B4D1B1320}.Debug|Win32.Build.0 = Debug|Win32
+		{38E45683-876B-46EF-A1A3-876B4D1B1320}.Release|Win32.ActiveCfg = Release|Win32
+		{38E45683-876B-46EF-A1A3-876B4D1B1320}.Release|Win32.Build.0 = Release|Win32
+		{38E45683-876B-46EF-A1A3-876B4D1B1320}.加狗_Release|Win32.ActiveCfg = 加狗_Release|Win32
+		{38E45683-876B-46EF-A1A3-876B4D1B1320}.加狗_Release|Win32.Build.0 = 加狗_Release|Win32
+		{38E45683-876B-46EF-A1A3-876B4D1B1320}.加狗|Win32.ActiveCfg = 加狗|Win32
+		{38E45683-876B-46EF-A1A3-876B4D1B1320}.加狗|Win32.Build.0 = 加狗|Win32
+		{AE1138AB-5E9D-4DE7-B96B-3B0D1B4F6178}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE1138AB-5E9D-4DE7-B96B-3B0D1B4F6178}.Debug|Win32.Build.0 = Debug|Win32
+		{AE1138AB-5E9D-4DE7-B96B-3B0D1B4F6178}.Release|Win32.ActiveCfg = Release|Win32
+		{AE1138AB-5E9D-4DE7-B96B-3B0D1B4F6178}.Release|Win32.Build.0 = Release|Win32
+		{AE1138AB-5E9D-4DE7-B96B-3B0D1B4F6178}.加狗_Release|Win32.ActiveCfg = 加狗_Release|Win32
+		{AE1138AB-5E9D-4DE7-B96B-3B0D1B4F6178}.加狗_Release|Win32.Build.0 = 加狗_Release|Win32
+		{AE1138AB-5E9D-4DE7-B96B-3B0D1B4F6178}.加狗|Win32.ActiveCfg = 加狗|Win32
+		{AE1138AB-5E9D-4DE7-B96B-3B0D1B4F6178}.加狗|Win32.Build.0 = 加狗|Win32
+		{9327DB6A-6CAF-4357-9591-1343520FB8D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9327DB6A-6CAF-4357-9591-1343520FB8D9}.Debug|Win32.Build.0 = Debug|Win32
+		{9327DB6A-6CAF-4357-9591-1343520FB8D9}.Release|Win32.ActiveCfg = Release|Win32
+		{9327DB6A-6CAF-4357-9591-1343520FB8D9}.Release|Win32.Build.0 = Release|Win32
+		{9327DB6A-6CAF-4357-9591-1343520FB8D9}.加狗_Release|Win32.ActiveCfg = 加狗_Release|Win32
+		{9327DB6A-6CAF-4357-9591-1343520FB8D9}.加狗_Release|Win32.Build.0 = 加狗_Release|Win32
+		{9327DB6A-6CAF-4357-9591-1343520FB8D9}.加狗|Win32.ActiveCfg = 加狗|Win32
+		{9327DB6A-6CAF-4357-9591-1343520FB8D9}.加狗|Win32.Build.0 = 加狗|Win32
+		{A981B9EE-62EE-4845-A649-A7DCB93AD86A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A981B9EE-62EE-4845-A649-A7DCB93AD86A}.Debug|Win32.Build.0 = Debug|Win32
+		{A981B9EE-62EE-4845-A649-A7DCB93AD86A}.Release|Win32.ActiveCfg = Release|Win32
+		{A981B9EE-62EE-4845-A649-A7DCB93AD86A}.Release|Win32.Build.0 = Release|Win32
+		{A981B9EE-62EE-4845-A649-A7DCB93AD86A}.加狗_Release|Win32.ActiveCfg = Release|Win32
+		{A981B9EE-62EE-4845-A649-A7DCB93AD86A}.加狗_Release|Win32.Build.0 = Release|Win32
+		{A981B9EE-62EE-4845-A649-A7DCB93AD86A}.加狗|Win32.ActiveCfg = Release|Win32
+		{A981B9EE-62EE-4845-A649-A7DCB93AD86A}.加狗|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
