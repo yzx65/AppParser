@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'smsinfodlg.h'
 **
-** Created: Wed Apr 1 09:12:24 2015
+** Created: Wed Apr 1 16:19:36 2015
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!

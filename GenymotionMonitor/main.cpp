@@ -49,7 +49,7 @@ bool MonitorForegroundWindow(Node* machineList)
 			ShowWindow(window, SW_HIDE);
 
 		if ( 0 != wcsstr(windowText, L"Genymotion for personal use") )
-			SetWindowTextW(window, L"模拟器窗口");
+			SetWindowTextW(window, L"手机取证-模拟器");
 
 		Sleep(100);
 	}

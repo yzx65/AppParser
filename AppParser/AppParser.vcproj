@@ -282,6 +282,7 @@
 				AdditionalDependencies="kernel32.lib user32.lib shell32.lib uuid.lib ole32.lib advapi32.lib ws2_32.lib gdi32.lib comdlg32.lib oleaut32.lib imm32.lib winmm.lib winspool.lib ws2_32.lib ole32.lib user32.lib advapi32.lib qtmain.lib QtCore.lib QtGui.lib QtXml.lib"
 				OutputFile="..\bin_r\$(ProjectName)_r_&#21152;&#29399;.exe"
 				AdditionalLibraryDirectories="&quot;$(QTDIR)\lib&quot;;..\bin_r"
+				UACExecutionLevel="2"
 				IgnoreDefaultLibraryNames="libcmtd.lib"
 				GenerateDebugInformation="false"
 				SubSystem="2"
@@ -3265,6 +3266,54 @@
 				</FileConfiguration>
 			</File>
 			<File
+				RelativePath=".\AppParser.qrc"
+				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Rcc&apos;ing $(InputFileName)..."
+						CommandLine="&quot;$(QTDIR)\bin\rcc.exe&quot; -name &quot;$(InputName)&quot; -no-compress &quot;$(InputPath)&quot; -o .\GeneratedFiles\qrc_$(InputName).cpp&#x0D;&#x0A;"
+						AdditionalDependencies="$(InputPath);.\Image\window_shadow.png;.\Image\close_hover.png;.\Image\close_normal.png;.\Image\close_pressed.png;.\Image\min_hover.png;.\Image\min_normal.png;.\Image\min_pressed.png;.\Image\menu_hover.png;.\Image\menu_normal.png;.\Image\menu_pressed.png;.\Image\arrow.png;.\Image\information.png;.\Image\iphone_5s_gold.png;.\Image\expand_normal.png;.\Image\unexpand_normal.png;.\Image\expand_selected.png;.\Image\unexpand_selected.png;.\Image\icon.png;.\qt_zh_CN.qm;.\Image\search.png;.\Image\radio_checked_hover.png;.\Image\radio_checked_normal.png;.\Image\radio_unchecked_hover.png;.\Image\radio_unchecked_normal.png;.\Image\android.png;.\Image\android_icon.png;.\Image\ios.png;.\Image\splliteLeft.png;.\Image\splliteRight.png;.\Image\app.png;.\Image\backup.png;.\Image\image.png;.\Image\offline.png;.\Image\wifi.png;.\Image\max_hover.png;.\Image\max_normal.png;.\Image\max_pressed.png"
+						Outputs=".\GeneratedFiles\qrc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Rcc&apos;ing $(InputFileName)..."
+						CommandLine="&quot;$(QTDIR)\bin\rcc.exe&quot; -name &quot;$(InputName)&quot; -no-compress &quot;$(InputPath)&quot; -o .\GeneratedFiles\qrc_$(InputName).cpp&#x0D;&#x0A;"
+						AdditionalDependencies="$(InputPath);.\Image\window_shadow.png;.\Image\close_hover.png;.\Image\close_normal.png;.\Image\close_pressed.png;.\Image\min_hover.png;.\Image\min_normal.png;.\Image\min_pressed.png;.\Image\menu_hover.png;.\Image\menu_normal.png;.\Image\menu_pressed.png;.\Image\arrow.png;.\Image\information.png;.\Image\iphone_5s_gold.png;.\Image\expand_normal.png;.\Image\unexpand_normal.png;.\Image\expand_selected.png;.\Image\unexpand_selected.png;.\Image\icon.png;.\qt_zh_CN.qm;.\Image\search.png;.\Image\radio_checked_hover.png;.\Image\radio_checked_normal.png;.\Image\radio_unchecked_hover.png;.\Image\radio_unchecked_normal.png;.\Image\android.png;.\Image\android_icon.png;.\Image\ios.png;.\Image\splliteLeft.png;.\Image\splliteRight.png;.\Image\app.png;.\Image\backup.png;.\Image\image.png;.\Image\offline.png;.\Image\wifi.png;.\Image\max_hover.png;.\Image\max_normal.png;.\Image\max_pressed.png"
+						Outputs=".\GeneratedFiles\qrc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="&#21152;&#29399;|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Rcc&apos;ing $(InputFileName)..."
+						CommandLine="&quot;$(QTDIR)\bin\rcc.exe&quot; -name &quot;$(InputName)&quot; -no-compress &quot;$(InputPath)&quot; -o .\GeneratedFiles\qrc_$(InputName).cpp&#x0D;&#x0A;"
+						AdditionalDependencies="$(InputPath);.\Image\window_shadow.png;.\Image\close_hover.png;.\Image\close_normal.png;.\Image\close_pressed.png;.\Image\min_hover.png;.\Image\min_normal.png;.\Image\min_pressed.png;.\Image\menu_hover.png;.\Image\menu_normal.png;.\Image\menu_pressed.png;.\Image\arrow.png;.\Image\information.png;.\Image\iphone_5s_gold.png;.\Image\expand_normal.png;.\Image\unexpand_normal.png;.\Image\expand_selected.png;.\Image\unexpand_selected.png;.\Image\icon.png;.\qt_zh_CN.qm;.\Image\search.png;.\Image\radio_checked_hover.png;.\Image\radio_checked_normal.png;.\Image\radio_unchecked_hover.png;.\Image\radio_unchecked_normal.png;.\Image\android.png;.\Image\android_icon.png;.\Image\ios.png;.\Image\splliteLeft.png;.\Image\splliteRight.png;.\Image\app.png;.\Image\backup.png;.\Image\image.png;.\Image\offline.png;.\Image\wifi.png;.\Image\max_hover.png;.\Image\max_normal.png;.\Image\max_pressed.png"
+						Outputs=".\GeneratedFiles\qrc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="&#21152;&#29399;_Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Rcc&apos;ing $(InputFileName)..."
+						CommandLine="&quot;$(QTDIR)\bin\rcc.exe&quot; -name &quot;$(InputName)&quot; -no-compress &quot;$(InputPath)&quot; -o .\GeneratedFiles\qrc_$(InputName).cpp&#x0D;&#x0A;"
+						AdditionalDependencies="$(InputPath);.\Image\window_shadow.png;.\Image\close_hover.png;.\Image\close_normal.png;.\Image\close_pressed.png;.\Image\min_hover.png;.\Image\min_normal.png;.\Image\min_pressed.png;.\Image\menu_hover.png;.\Image\menu_normal.png;.\Image\menu_pressed.png;.\Image\arrow.png;.\Image\information.png;.\Image\iphone_5s_gold.png;.\Image\expand_normal.png;.\Image\unexpand_normal.png;.\Image\expand_selected.png;.\Image\unexpand_selected.png;.\Image\icon.png;.\qt_zh_CN.qm;.\Image\search.png;.\Image\radio_checked_hover.png;.\Image\radio_checked_normal.png;.\Image\radio_unchecked_hover.png;.\Image\radio_unchecked_normal.png;.\Image\android.png;.\Image\android_icon.png;.\Image\ios.png;.\Image\splliteLeft.png;.\Image\splliteRight.png;.\Image\app.png;.\Image\backup.png;.\Image\image.png;.\Image\offline.png;.\Image\wifi.png;.\Image\max_hover.png;.\Image\max_normal.png;.\Image\max_pressed.png"
+						Outputs=".\GeneratedFiles\qrc_$(InputName).cpp"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
 				RelativePath=".\Image\arrow.png"
 				>
 				<FileConfiguration
@@ -3729,54 +3778,6 @@
 					>
 					<Tool
 						Name="VCCustomBuildTool"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath=".\AppParser.qrc"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCustomBuildTool"
-						Description="Rcc&apos;ing $(InputFileName)..."
-						CommandLine="&quot;$(QTDIR)\bin\rcc.exe&quot; -name &quot;$(InputName)&quot; -no-compress &quot;$(InputPath)&quot; -o .\GeneratedFiles\qrc_$(InputName).cpp&#x0D;&#x0A;"
-						AdditionalDependencies="$(InputPath);.\Image\window_shadow.png;.\Image\close_hover.png;.\Image\close_normal.png;.\Image\close_pressed.png;.\Image\min_hover.png;.\Image\min_normal.png;.\Image\min_pressed.png;.\Image\menu_hover.png;.\Image\menu_normal.png;.\Image\menu_pressed.png;.\Image\arrow.png;.\Image\information.png;.\Image\iphone_5s_gold.png;.\Image\expand_normal.png;.\Image\unexpand_normal.png;.\Image\expand_selected.png;.\Image\unexpand_selected.png;.\Image\icon.png;.\qt_zh_CN.qm;.\Image\search.png;.\Image\radio_checked_hover.png;.\Image\radio_checked_normal.png;.\Image\radio_unchecked_hover.png;.\Image\radio_unchecked_normal.png;.\Image\android.png;.\Image\android_icon.png;.\Image\ios.png;.\Image\splliteLeft.png;.\Image\splliteRight.png;.\Image\app.png;.\Image\backup.png;.\Image\image.png;.\Image\offline.png;.\Image\wifi.png;.\Image\max_hover.png;.\Image\max_normal.png;.\Image\max_pressed.png"
-						Outputs=".\GeneratedFiles\qrc_$(InputName).cpp"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Debug|Win32"
-					>
-					<Tool
-						Name="VCCustomBuildTool"
-						Description="Rcc&apos;ing $(InputFileName)..."
-						CommandLine="&quot;$(QTDIR)\bin\rcc.exe&quot; -name &quot;$(InputName)&quot; -no-compress &quot;$(InputPath)&quot; -o .\GeneratedFiles\qrc_$(InputName).cpp&#x0D;&#x0A;"
-						AdditionalDependencies="$(InputPath);.\Image\window_shadow.png;.\Image\close_hover.png;.\Image\close_normal.png;.\Image\close_pressed.png;.\Image\min_hover.png;.\Image\min_normal.png;.\Image\min_pressed.png;.\Image\menu_hover.png;.\Image\menu_normal.png;.\Image\menu_pressed.png;.\Image\arrow.png;.\Image\information.png;.\Image\iphone_5s_gold.png;.\Image\expand_normal.png;.\Image\unexpand_normal.png;.\Image\expand_selected.png;.\Image\unexpand_selected.png;.\Image\icon.png;.\qt_zh_CN.qm;.\Image\search.png;.\Image\radio_checked_hover.png;.\Image\radio_checked_normal.png;.\Image\radio_unchecked_hover.png;.\Image\radio_unchecked_normal.png;.\Image\android.png;.\Image\android_icon.png;.\Image\ios.png;.\Image\splliteLeft.png;.\Image\splliteRight.png;.\Image\app.png;.\Image\backup.png;.\Image\image.png;.\Image\offline.png;.\Image\wifi.png;.\Image\max_hover.png;.\Image\max_normal.png;.\Image\max_pressed.png"
-						Outputs=".\GeneratedFiles\qrc_$(InputName).cpp"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="&#21152;&#29399;|Win32"
-					>
-					<Tool
-						Name="VCCustomBuildTool"
-						Description="Rcc&apos;ing $(InputFileName)..."
-						CommandLine="&quot;$(QTDIR)\bin\rcc.exe&quot; -name &quot;$(InputName)&quot; -no-compress &quot;$(InputPath)&quot; -o .\GeneratedFiles\qrc_$(InputName).cpp&#x0D;&#x0A;"
-						AdditionalDependencies="$(InputPath);.\Image\window_shadow.png;.\Image\close_hover.png;.\Image\close_normal.png;.\Image\close_pressed.png;.\Image\min_hover.png;.\Image\min_normal.png;.\Image\min_pressed.png;.\Image\menu_hover.png;.\Image\menu_normal.png;.\Image\menu_pressed.png;.\Image\arrow.png;.\Image\information.png;.\Image\iphone_5s_gold.png;.\Image\expand_normal.png;.\Image\unexpand_normal.png;.\Image\expand_selected.png;.\Image\unexpand_selected.png;.\Image\icon.png;.\qt_zh_CN.qm;.\Image\search.png;.\Image\radio_checked_hover.png;.\Image\radio_checked_normal.png;.\Image\radio_unchecked_hover.png;.\Image\radio_unchecked_normal.png;.\Image\android.png;.\Image\android_icon.png;.\Image\ios.png;.\Image\splliteLeft.png;.\Image\splliteRight.png;.\Image\app.png;.\Image\backup.png;.\Image\image.png;.\Image\offline.png;.\Image\wifi.png;.\Image\max_hover.png;.\Image\max_normal.png;.\Image\max_pressed.png"
-						Outputs=".\GeneratedFiles\qrc_$(InputName).cpp"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="&#21152;&#29399;_Release|Win32"
-					>
-					<Tool
-						Name="VCCustomBuildTool"
-						Description="Rcc&apos;ing $(InputFileName)..."
-						CommandLine="&quot;$(QTDIR)\bin\rcc.exe&quot; -name &quot;$(InputName)&quot; -no-compress &quot;$(InputPath)&quot; -o .\GeneratedFiles\qrc_$(InputName).cpp&#x0D;&#x0A;"
-						AdditionalDependencies="$(InputPath);.\Image\window_shadow.png;.\Image\close_hover.png;.\Image\close_normal.png;.\Image\close_pressed.png;.\Image\min_hover.png;.\Image\min_normal.png;.\Image\min_pressed.png;.\Image\menu_hover.png;.\Image\menu_normal.png;.\Image\menu_pressed.png;.\Image\arrow.png;.\Image\information.png;.\Image\iphone_5s_gold.png;.\Image\expand_normal.png;.\Image\unexpand_normal.png;.\Image\expand_selected.png;.\Image\unexpand_selected.png;.\Image\icon.png;.\qt_zh_CN.qm;.\Image\search.png;.\Image\radio_checked_hover.png;.\Image\radio_checked_normal.png;.\Image\radio_unchecked_hover.png;.\Image\radio_unchecked_normal.png;.\Image\android.png;.\Image\android_icon.png;.\Image\ios.png;.\Image\splliteLeft.png;.\Image\splliteRight.png;.\Image\app.png;.\Image\backup.png;.\Image\image.png;.\Image\offline.png;.\Image\wifi.png;.\Image\max_hover.png;.\Image\max_normal.png;.\Image\max_pressed.png"
-						Outputs=".\GeneratedFiles\qrc_$(InputName).cpp"
 					/>
 				</FileConfiguration>
 			</File>

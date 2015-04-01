@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'android_emulatordlg.ui'
 **
-** Created: Wed Apr 1 13:49:51 2015
+** Created: Wed Apr 1 16:19:41 2015
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
